@@ -68,6 +68,7 @@ span, p {
     width: 100%;
     margin-bottom: 20px;
     border-top: 1px solid hsl(0, 0%, 59%);
+    text-align: center;
 }
 
 .info {margin-top: 30px;}
