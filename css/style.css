@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/bg-pattern-top.svg) -250px -504px no-repeat, #19a1ad url(../images/bg-pattern-bottom.svg) 732px 373px no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+span {margin-left: 5px;}
+
+p {font-size: 0.9rem;}
+
+span, p {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.container {
+    width: 349px;
+    height: 380px;
+    background: #fff url('../images/bg-pattern-card.svg') no-repeat;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .image {
+    border-radius: 100%;
+    box-shadow: 0 0px 0px 6px white;
+    margin-top: 92px;
+}
+
+.profile h2 {margin-top: 30px;}
+
+.profile p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.info {margin-top: 30px;}
+
+.info p {
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.attribution, .attribution a { 
+    font-size: 0.8rem; 
+    text-align: center; margin-bottom: 20px; 
+    color: #fff;
+}
